@@ -1,0 +1,10 @@
+/*TODO*/
+-Create card component
+    ->Figure out the rest of the components
+-Tabs with visited and unvisited
+-Create a visited section and an unvisited section
+-Figure out how to toggle visited vs non-visited
+-Host mlb images on seperate site
+-Use MLB logo as main image for each card (see if there is an API for all MLB team information)
+-Add relevant desription for each card
+-Create search navigation for display
