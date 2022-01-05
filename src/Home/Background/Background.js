@@ -1,5 +1,3 @@
-import List from './List/List';
-import Header from './Header/Header';
 import styled from 'styled-components';
 import backgroundImage from './mlb-park-unsplash.jpg';
 
@@ -28,15 +26,13 @@ const BackgroundOverlay = styled.div`
   z-index: -1;
 `;
 
-const Home = () => {
+const Background = () => {
   return (
-    <Container>
+    <>
       <BackgroundImage />
       <BackgroundOverlay />
-      <Header />
-      <List />
-    </Container>
+    </>
   );
 };
 
-export default Home;
+export default Background;
