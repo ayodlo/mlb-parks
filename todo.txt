@@ -1,10 +1,7 @@
 /*TODO*/
--Create card component
-    ->Figure out the rest of the components
 -Tabs with visited and unvisited
--Create a visited section and an unvisited section
--Figure out how to toggle visited vs non-visited
 -Host mlb images on seperate site
--Use MLB logo as main image for each card (see if there is an API for all MLB team information)
--Add relevant desription for each card
--Create search navigation for display
+-Best way to upload and store images on db?
+-If no upload show image of stadium with overlay saying NOT VISITED or something
+-Start testing
+-Start creating back end w/ node.js and mongodb

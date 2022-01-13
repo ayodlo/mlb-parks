@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 import backgroundImage from './mlb-park-unsplash.jpg';
 
-const Container = styled.div`
-  overflow: hidden; /* Hide scrollbars */
-`;
-
 const BackgroundImage = styled.div`
   height: 100vh;
   width: 100vw;
@@ -20,7 +16,7 @@ const BackgroundImage = styled.div`
 const BackgroundOverlay = styled.div`
   height: 100vh;
   width: 100vw;
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0, 0.3);
   position: fixed;
   top: 0;
   z-index: -1;

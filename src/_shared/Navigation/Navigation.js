@@ -7,14 +7,14 @@ const NavigationContainer = styled.div`
   box-sizing: border-box;
   display: flex;
   justify-content: flex-end;
-  padding: 0 2rem;
+  padding: 0 1.5em;
   width: 100%;
   margin: 0;
   & a,
   & button {
     color: whitesmoke;
     text-decoration: none;
-    padding: 1.5rem 2rem;
+    padding: 1.5em 0;
     border: none;
     transition: all 200ms ease-in-out;
     background-color: transparent;
@@ -31,7 +31,6 @@ const Navigation = () => {
 
   return (
     <NavigationContainer>
-      <Link to='/home'>Home</Link>
       {loggedIn === true ? <button>Login</button> : <button>Logout</button>}
     </NavigationContainer>
   );

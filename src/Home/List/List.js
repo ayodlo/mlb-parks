@@ -5,10 +5,11 @@ import { httpGet } from '../../_utils/utils';
 
 //Styles for List
 const ListStyles = styled.div`
-  margin: 2em auto;
-  width: 500px;
+  margin: 1rem 1rem;
+  max-width: 700px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, 186px);
+  justify-content: center;
   overflow-y: auto;
 `;
 
